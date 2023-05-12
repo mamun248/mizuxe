@@ -1,103 +1,48 @@
+body {
+  margin-top: 90px; }
+
 .navbar {
-  background: #000; }
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.9; }
   .navbar .nav-item {
-    padding-left: 1rem; }
-  .navbar .nav-link {
-    text-transform: uppercase; }
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
 
-.carousel-item {
-  height: 450px; }
-
-.carousel-img-1 {
-  background: url("../img/image1.jpeg");
-  background-size: cover; }
-
-.carousel-img-2 {
-  background: url("../img/image2.jpeg");
-  background-size: cover; }
-
-.carousel-img-3 {
-  background: url("../img/image3.jpeg");
-  background-size: cover; }
-
-#home-icon .fa {
-  font-size: 50px; }
-
-#getstarted {
-  position: relative;
-  background: url("../img/bg1.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 250px; }
-  #getstarted .dark-overlay {
-    background: rgba(0, 0, 0, 0.7);
+#showcase {
+  background-image: url("../img/mountains.jpg");
+  min-height: 600px;
+  position: relative; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
 
-#home-video {
-  position: relative;
-  background: url("../img/people.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 250px; }
-  #home-video .dark-overlay {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-  #home-video .fa {
-    font-size: 50px;
-    color: #ff0000; }
+#subscribe {
+  background: #252525; }
 
-#gallery img {
-  min-height: 250px; }
+#authors img {
+  margin-top: -50px; }
 
-#copyright {
-  background: #000; }
+#authors .fa {
+  font-size: 25px; }
 
-#page-header {
-  background: url("../img/image1.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 200px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
 
-#about-if img {
-  width: 350px;
-  height: 350px; }
-
-#icon-boxes .fa {
-  font-size: 50px;
-  margin-bottom: 20px; }
-
-#testimonial .slick-prev:before {
-  color: #000; }
-
-#testimonial .slick-next:before {
-  color: #000; }
-
-#services-page-header {
-  background: url("../img/image3.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 200px; }
-
-@media (max-width: 767px) {
-  .nav-item {
-    padding-left: 0 !important; }
-  #getstarted {
-    min-height: 300px; } }
-
-@media (max-width: 480px) {
-  .carousel h2 {
-    font-size: 2.5rem; }
-  #getstarted {
-    min-height: 350px; } }
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 4rem; } }
